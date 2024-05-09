@@ -1,4 +1,6 @@
-
+header{
+    background-color: black;
+}
 p {
     color: rgb(231, 255, 192);
 }
@@ -48,7 +50,7 @@ footer {
 	bottom: 0;
 	background-color: black;
 	height: 30px;
-	width: 120%;
+	width: 600px;
 	text-align: center;
 	line-height: 30px
 }
