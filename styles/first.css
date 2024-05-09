@@ -46,9 +46,9 @@ video {
 footer {
 	position: fixed;
 	bottom: 0;
-	background-color: #00FF00;
+	background-color: black;
 	height: 30px;
-	max-width: fit-content;
+	width: 120%;
 	text-align: center;
 	line-height: 30px
 }
