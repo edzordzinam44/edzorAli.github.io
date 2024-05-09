@@ -44,7 +44,7 @@ video {
 }
 
 footer {
-	position: fixed;
+	position: flex;
 	bottom: 0;
 	background-color: black;
 	height: 30px;
