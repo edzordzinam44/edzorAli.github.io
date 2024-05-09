@@ -1,0 +1,44 @@
+
+p {
+    color: rgb(231, 255, 192);
+}
+li {
+    color: grey;
+}
+html {
+    background-image: url(https://images.pexels.com/photos/13987012/pexels-photo-13987012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+body {
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    background-color: black;
+}
+a {
+    color: yellowgreen;
+}
+.title {
+    text-decoration: underline;
+    text-align: center;
+}
+h1 {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 3px 3px 1px blueviolet;
+    display: block;
+}
+
+img {
+    margin: auto;
+    display: inline-block;
+    height: 200px;
+    width: 600px
+}
+video {
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 300px;
+}
