@@ -3,6 +3,7 @@ footer {
     bottom: 0;
     right: 0;
     background-color: black;
-    width: fit-content;
-    height: 3px;
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
 }
