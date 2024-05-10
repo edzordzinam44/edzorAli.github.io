@@ -1,6 +1,11 @@
 body {
     background-image: url(https://smashinglogo.com/v3/envision/image.jpg?id=4b9ac13e-07e5-4673-afb7-6fefbb0c1cfc&format=desktop);
 }
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
 footer {
     position: absolute;
     bottom: 0;
