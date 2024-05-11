@@ -12,6 +12,27 @@ a1 {
     text-align: left;
 }
 
+.loading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 6px solid crimson;
+    border-top: 6px solid transparent;
+    animation: rotate 1.5s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 footer {
     position: absolute;
     bottom: 0;
