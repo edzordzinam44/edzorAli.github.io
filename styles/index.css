@@ -16,7 +16,7 @@ a1 {
 
 .loading {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 2rem;
     height: 2rem;
@@ -36,9 +36,12 @@ a1 {
 }
 
 footer {
+    position: absolute;
     bottom: 0;
-    line-height: 20px;
+    right: 0;
+    line-height: 1.5;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 /* navigation */
