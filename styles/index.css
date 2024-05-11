@@ -3,7 +3,10 @@ body {
 }
 
 h1 {
-    position: top;
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: auto;
 }
 
 a1 {
