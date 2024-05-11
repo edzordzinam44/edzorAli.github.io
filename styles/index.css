@@ -6,6 +6,12 @@ h1 {
     text-align: center;
     text-decoration: underline;
 }
+
+a1 {
+    text-decoration-color: blue;
+    text-align: left;
+}
+
 footer {
     position: absolute;
     bottom: 0;
