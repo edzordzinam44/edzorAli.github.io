@@ -2,12 +2,12 @@ body {
     background-image: url(https://smashinglogo.com/v3/envision/image.jpg?id=4b9ac13e-07e5-4673-afb7-6fefbb0c1cfc&format=desktop);
 }
 
-h1 {
+/* h1 {
     position: absolute;
     top: 0;
     height: 20px;
     width: auto;
-}
+} */
 
 a1 {
     text-decoration-color: blue;
@@ -36,11 +36,7 @@ a1 {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
-    right: 0;
-    background-color: rgb(227, 238, 133);
-    width: 100%;
     line-height: 20px;
     text-align: center;
 }
