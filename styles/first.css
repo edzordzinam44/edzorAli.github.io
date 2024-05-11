@@ -3,13 +3,15 @@ header{
 }
 p {
     color: black;
+    position: absolute;
+    left: 0;
 }
 li {
     color: grey;
 }
-html {
+/* html {
     background-image: url(https://images.pexels.com/photos/13987012/pexels-photo-13987012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-}
+} */
 body {
     margin: 0 auto;
     width: 600px;
