@@ -41,3 +41,33 @@ footer {
     line-height: 20px;
     text-align: center;
 }
+
+/* navigation */
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gold;
+    color: black;
+}
+
+nav ul {
+    list-style-type: lower-roman;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav ul li a:hover {
+    background-color: black;
+}
