@@ -47,7 +47,6 @@ img {
     width: 600px
 }
 
-
 footer {
 	position: absolute;
 	bottom: 0;
@@ -61,10 +60,5 @@ footer {
 button {
     position: absolute;
     bottom: 0;
-    left: 0;
-}
-
-.button-left {
-    position: absolute;
-    left: 0;
+    left: 0.5;
 }
