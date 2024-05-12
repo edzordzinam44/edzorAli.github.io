@@ -47,20 +47,13 @@ img {
     width: 600px
 }
 
-video {
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 300px;
-}
 
 footer {
 	position: absolute;
 	bottom: 0;
     right: 0;
+    width: 30px;
 	height: 30px;
-	width: 600px;
 	text-align: center;
 	line-height: 30px
 }
@@ -68,5 +61,10 @@ footer {
 button {
     position: absolute;
     bottom: 0;
+    left: 0;
+}
+
+.button-left {
+    position: absolute;
     left: 0;
 }
