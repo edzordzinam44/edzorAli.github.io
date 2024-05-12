@@ -1,30 +1,37 @@
 header{
     background-color: black;
 }
+
 p {
     color: black;
     position: absolute;
     left: 0;
 }
+
 li {
     color: grey;
 }
+
 /* html {
     background-image: url(https://images.pexels.com/photos/13987012/pexels-photo-13987012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 } */
+
 body {
     margin: 0 auto;
     width: 600px;
     padding: 0 20px 20px 20px;
     background-image: url(https://images.pexels.com/photos/19734410/pexels-photo-19734410/free-photo-of-heart-shaped-traffic-lights-and-pond-with-fountain-in-the-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+
 a {
     color: yellowgreen;
 }
+
 .title {
     text-decoration: underline;
     text-align: center;
 }
+
 h1 {
     margin: auto;
     padding-top: 20px;
@@ -39,6 +46,7 @@ img {
     height: 200px;
     width: 600px
 }
+
 video {
     height: 200px;
     align-items: center;
@@ -48,10 +56,17 @@ video {
 }
 
 footer {
-	position: flex;
+	position: absolute;
 	bottom: 0;
+    right: 0;
 	height: 30px;
 	width: 600px;
 	text-align: center;
 	line-height: 30px
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
