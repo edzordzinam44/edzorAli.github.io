@@ -51,7 +51,7 @@ footer {
 	position: absolute;
 	bottom: 0;
     right: 0;
-    width: 30px;
+    width: 200px;
 	height: 30px;
 	text-align: center;
 	line-height: 30px
@@ -60,5 +60,5 @@ footer {
 button {
     position: absolute;
     bottom: 0;
-    left: 0.5;
+    left: 0;
 }
