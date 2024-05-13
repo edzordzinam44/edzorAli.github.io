@@ -20,17 +20,18 @@ body {
     margin: 0 auto;
     width: 600px;
     padding: 0 20px 20px 20px;
-    background-image: url(https://images.pexels.com/photos/19734410/pexels-photo-19734410/free-photo-of-heart-shaped-traffic-lights-and-pond-with-fountain-in-the-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    /* background-image: url(https://images.pexels.com/photos/19734410/pexels-photo-19734410/free-photo-of-heart-shaped-traffic-lights-and-pond-with-fountain-in-the-park.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
     text-align: left;
+    background-color: aquamarine;
 }
 
 a {
     color: yellowgreen;
 }
 
-.locations {
+.referral {
     position: absolute;
-    bottom: 15%;
+    bottom: 27%;
 }
 
 .title {
@@ -41,8 +42,13 @@ a {
 .inner-list {
     text-align: left;
     position: absolute;
-    bottom: 18%;
-    left: 0%;
+    bottom: 33%;
+    left: -0.1%;
+}
+
+.emphasis {
+    text-align: center;
+    bottom: 30%;
 }
 
 h1 {
@@ -62,7 +68,7 @@ img {
 
 footer {
 	position: absolute;
-	bottom: 0;
+	bottom: -15%;
     right: 0;
     width: 200px;
 	height: 30px;
@@ -72,7 +78,7 @@ footer {
 
 button {
     position: absolute;
-    bottom: 0;
+    bottom: -50%;
     left: 0;
     width: 100px;
     height: fit-content;
