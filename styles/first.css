@@ -28,9 +28,21 @@ a {
     color: yellowgreen;
 }
 
+.locations {
+    position: absolute;
+    bottom: 15%;
+}
+
 .title {
     text-decoration: underline;
     text-align: center;
+}
+
+.inner-list {
+    text-align: left;
+    position: absolute;
+    bottom: 18%;
+    left: 0%;
 }
 
 h1 {
