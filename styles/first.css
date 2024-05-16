@@ -89,3 +89,30 @@ button {
     height: fit-content;
     background-color: blue;
 }
+
+.personal {
+    position: absolute;
+    top: -300px;
+    left: -249px;
+}
+
+#person {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    margin: 20px;
+    bottom: 0%;
+    right: 0;
+}
+#person::after {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: gray;
+    bottom: -20px;
+    right: -10px;
+    border-radius: 50% 50% 0% 0%;
+}
