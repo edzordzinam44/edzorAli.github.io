@@ -50,18 +50,18 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: gold;
+    background-color: rgb(150, 149, 143);
     color: black;
 }
 
 nav ul {
     list-style-type: lower-roman;
     margin: 0;
-    padding: 0;
+    padding: 1px;
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
 }
 
 nav ul li a {
@@ -75,6 +75,42 @@ nav ul li a:hover {
     background-color: black;
 }
 
+.change {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.change body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    transition: transform 0.5s;
+}
+
+li {
+    display: flex;
+    position: relative;
+    width: 200px;
+    height: 3rem;
+    margin-bottom: 1px;
+    transform: skewY(-15deg);
+    list-style: none;
+    cursor: pointer;
+}
+
+.text {
+    display: block;
+    position: relative;
+    width: 100%;
+    line-height: 3rem;
+    background: #444757;
+}
 .glass {
     border: 1px solid rgba(255, 255, 255, 0.35);
     border-radius: 16px;
