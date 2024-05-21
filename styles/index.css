@@ -74,3 +74,75 @@ nav ul li a {
 nav ul li a:hover {
     background-color: black;
 }
+
+.glass {
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    background: rgb(245, 245, 0.9);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2.8px);
+
+    width: 20rem;
+    height: 20rem;
+    padding: 2.5rem;
+}
+
+h1 {
+    height: 15rem;
+    max-width: 1000px;
+    padding: -20px;
+    text-align: center;
+    line-height: 1;
+    font-family: Poppins;
+    font-size: clamp(1rem, 7ww, 3rem);
+    top: 1px;
+    position: absolute;
+}
+.benefits {
+    /* position: relative; */
+    /* height: ; */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1em + 10px);
+}
+
+.benefits span {
+    background: -webkit-linear-gradient(#d403c6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: auto-scroll 15s infinite;
+}
+
+@keyframes auto-scroll {
+    0% {
+        transform: translateY(0);
+    }
+    5% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-1em);
+    }
+    30% {
+        transform: translateY(-1em);
+    }
+    35% {
+        transform: translateY(-2em);
+    }
+    55% {
+        transform: translateY(-2em);
+    }
+    60% {
+        transform: translateY(-3em);
+    }
+    80% {
+        transform: translateY(-3em);
+    }
+    85% {
+        transform: translateY(-4em);
+    }
+    100% {
+        transform: translateY(-4em);
+    }
+}
