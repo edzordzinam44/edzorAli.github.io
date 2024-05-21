@@ -110,6 +110,19 @@ li {
     width: 100%;
     line-height: 3rem;
     background: #444757;
+    color: #aaa;
+    letter-spacing: 3px;
+    padding-inline: 1rem;
+}
+
+.icon {
+    display: grid;
+    place-items: center;
+    width: 3rem;
+    transform: skewY(45deg);
+    transform-origin: right;
+    background: 2e3133;
+    color: #ccc;
 }
 .glass {
     border: 1px solid rgba(255, 255, 255, 0.35);
