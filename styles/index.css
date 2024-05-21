@@ -141,6 +141,20 @@ li:hover .text {
     transform: translateX(-45px);
     background: #074417;
 }
+
+li:hover .text {
+    transform: translateX(-45px);
+    background: #09551d;
+}
+
+li:hover .text::after {
+    background: #074417;
+}
+
+li:hover i {
+    transform: translateX(-45px) skewY(45deg);
+    background: #053612;
+}
 .glass {
     border: 1px solid rgba(255, 255, 255, 0.35);
     border-radius: 16px;
