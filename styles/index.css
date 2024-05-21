@@ -83,7 +83,7 @@ nav ul li a:hover {
     backdrop-filter: blur(2.8px);
 
     width: 20rem;
-    height: 20rem;
+    height: 10rem;
     padding: 2.5rem;
 }
 
@@ -97,10 +97,11 @@ h1 {
     font-size: clamp(1rem, 7ww, 3rem);
     top: 1px;
     position: absolute;
+    left: 2px;
 }
 .benefits {
     /* position: relative; */
-    /* height: ; */
+    height: 1em;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -110,7 +111,7 @@ h1 {
 .benefits span {
     background: -webkit-linear-gradient(#d403c6);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: rgb(224, 21, 207);
     animation: auto-scroll 15s infinite;
 }
 
