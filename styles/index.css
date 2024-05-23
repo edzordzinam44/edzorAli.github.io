@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
 }
 
@@ -43,11 +43,13 @@ a1 {
 footer {
     position: absolute;
     bottom: 0;
-    right: 50px;
+    right: 0px;
     line-height: 0.1px;
     text-align: center;
     letter-spacing: 1.4px;
-    width: 50%;
+    background-color: rgb(8, 8, 8);
+    width: 20%;
+    -webkit-text-fill-color: rgb(148, 0, 0);
 }
 
 /* navigation */
