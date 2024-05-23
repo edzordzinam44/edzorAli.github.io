@@ -54,26 +54,26 @@ nav {
     color: black;
 }
 
-nav ul {
+/* nav ul {
     list-style-type: lower-roman;
     margin: 0;
     padding: 1px;
-}
+} */
 
-nav ul li {
+/* nav ul li {
     display: block;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
     color: inherit;
-}
+} */
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     background-color: black;
-}
+} */
 
 .change {
     box-sizing: border-box;
@@ -117,7 +117,7 @@ li {
 
 .icon {
     display: grid;
-    place-items: center;
+    place-items: inherit;
     width: 3rem;
     transform: skewY(45deg);
     transform-origin: right;
@@ -155,6 +155,7 @@ li:hover i {
     transform: translateX(-45px) skewY(45deg);
     background: #053612;
 }
+
 .glass {
     border: 1px solid rgba(255, 255, 255, 0.35);
     border-radius: 16px;
