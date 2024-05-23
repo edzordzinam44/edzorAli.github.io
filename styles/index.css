@@ -21,7 +21,7 @@ a1 {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    border: 6px solid crimson;
+    border: 6px solid rgb(36, 10, 182);
     border-top: 6px solid transparent;
     animation: rotate 1s infinite linear;
 }
@@ -50,7 +50,7 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgb(150, 149, 143);
+    /* background-color: rgb(150, 149, 143); */
     color: black;
 }
 
@@ -89,9 +89,9 @@ nav {
     font-weight: 600;
 }
 
-ul {
+/* ul {
     transition: transform 0.5s;
-}
+} */
 
 li {
     display: flex;
@@ -121,12 +121,12 @@ li {
     width: 3rem;
     transform: skewY(45deg);
     transform-origin: right;
-    background: 2e3133;
+    background: #2e3133;
     color: #ccc;
 }
 
 .text::after {
-    /* centent: ""; */
+    content: "";
     position: absolute;
     top: -40px;
     left: 0px;
@@ -190,11 +190,11 @@ h1 {
 }
 
 .benefits span {
-    background: -webkit-linear-gradient(#d403c6);
+    background: -webkit-linear-gradient(hsl(106, 97%, 42%));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: rgb(224, 21, 207);
+    -webkit-text-fill-color: rgb(148, 0, 0);
     animation: auto-scroll 15s infinite;
-}
+} 
 
 @keyframes auto-scroll {
     0% {
