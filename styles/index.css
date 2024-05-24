@@ -1,9 +1,18 @@
 body {
     /* margin: 8px; */
+    background-image: url("https://smashinglogo.com/v3/envision/image.jpg?id=4b9ac13e-07e5-4673-afb7-6fefbb0c1cfc&format=desktop");
     font-family: Arial, sans-serif;
-    background-size: cover;
+    /* background-size: cover; */
     background-position: center;
     /* background-repeat: no-repeat; */
+}
+
+.overlay-image {
+    background-image: url("https://www.timedoctor.com/blog/images/2023/10/Remote-employee-not-working-1024x576.jpg.webp");
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
 }
 
 /* h1 {
@@ -165,12 +174,12 @@ li:hover i {
 .glass {
     border: 1px solid rgba(255, 255, 255, 0.35);
     border-radius: 16px;
-    background: rgb(245, 245, 0.9);
+    background: transparent;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(2.8px);
 
     width: 20rem;
-    height: 10rem;
+    height: 8rem;
     padding: 2.5rem;
 }
 
