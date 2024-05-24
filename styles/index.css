@@ -3,8 +3,13 @@ body {
     background-image: url("https://smashinglogo.com/v3/envision/image.jpg?id=4b9ac13e-07e5-4673-afb7-6fefbb0c1cfc&format=desktop");
     font-family: Arial, sans-serif;
     /* background-size: cover; */
-    background-position: center;
+    /* background-position: center; */
     /* background-repeat: no-repeat; */
+    z-index: -1;
+}
+
+.container {
+    position: relative;
 }
 
 .overlay-image {
